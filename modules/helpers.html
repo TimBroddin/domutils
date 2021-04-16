@@ -80,7 +80,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="helpers.html#comparedocumentposition" class="tsd-kind-icon">compare<wbr>Document<wbr>Position</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="helpers.html#removesubsets" class="tsd-kind-icon">remove<wbr>Subsets</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-module"><a href="helpers.html#uniquesort" class="tsd-kind-icon">unique<wbr>Sort</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter"><a href="helpers.html#uniquesort" class="tsd-kind-icon">unique<wbr>Sort</a></li>
 							</ul>
 						</section>
 					</div>
@@ -98,7 +98,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/fb55/domutils/blob/f85712c/src/helpers.ts#L75">helpers.ts:75</a></li>
+									<li>Defined in <a href="https://github.com/fb55/domutils/blob/7587734/src/helpers.ts#L75">helpers.ts:75</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -153,7 +153,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/fb55/domutils/blob/f85712c/src/helpers.ts#L10">helpers.ts:10</a></li>
+									<li>Defined in <a href="https://github.com/fb55/domutils/blob/7587734/src/helpers.ts#L10">helpers.ts:10</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -175,17 +175,17 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
 					<a name="uniquesort" class="tsd-anchor"></a>
 					<h3>unique<wbr>Sort</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-						<li class="tsd-signature tsd-kind-icon">unique<wbr>Sort<span class="tsd-signature-symbol">(</span>nodes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Node</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Node</span><span class="tsd-signature-symbol">[]</span></li>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+						<li class="tsd-signature tsd-kind-icon">unique<wbr>Sort&lt;T&gt;<span class="tsd-signature-symbol">(</span>nodes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/fb55/domutils/blob/f85712c/src/helpers.ts#L129">helpers.ts:129</a></li>
+									<li>Defined in <a href="https://github.com/fb55/domutils/blob/7587734/src/helpers.ts#L129">helpers.ts:129</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -195,16 +195,22 @@
 									to the same document, sort order is unspecified.</p>
 								</div>
 							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Node</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
+								</li>
+							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>nodes: <span class="tsd-signature-type">Node</span><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>nodes: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Array of DOM nodes.</p>
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Node</span><span class="tsd-signature-symbol">[]</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
 							<p>Collection of unique nodes, sorted in document order.</p>
 						</li>
 					</ul>
@@ -251,7 +257,7 @@
 					<li class=" tsd-kind-function tsd-parent-kind-module">
 						<a href="helpers.html#removesubsets" class="tsd-kind-icon">remove<wbr>Subsets</a>
 					</li>
-					<li class=" tsd-kind-function tsd-parent-kind-module">
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
 						<a href="helpers.html#uniquesort" class="tsd-kind-icon">unique<wbr>Sort</a>
 					</li>
 				</ul>
@@ -265,6 +271,7 @@
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
 				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
